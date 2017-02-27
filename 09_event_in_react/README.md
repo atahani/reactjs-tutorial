@@ -1,6 +1,6 @@
 ## Instruction
 
-1. edit `./client/components/App/index.jsx`
+1.edit `./client/components/App/index.jsx`
 
 ```
 import React, { Component } from 'react';

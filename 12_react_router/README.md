@@ -1,14 +1,14 @@
 ## Instruction
 
-1. install `react-router`
+1.install `react-router`
 
 ```
 yarn add react-router
 ```
 
-2. add containers `App`, `Home`, `About`, `Items`, `Item`, `NotFound` 
+2.add containers `App`, `Home`, `About`, `Items`, `Item`, `NotFound` 
 
-3. add `routes.jsx` file
+3.add `routes.jsx` file
 
 ```
 import React from 'react';
@@ -36,7 +36,7 @@ const routes = () => (
 export default routes;
 ```
 
-4. edit `./client/index.jsx` file
+4.edit `./client/index.jsx` file
 
 ```
 import React from 'react';
@@ -67,7 +67,7 @@ if (module.hot) {
   });
 }
 ``` 
-5. edit `webpack.config.js` file, since we use webpack-dev-server 
+5.edit `webpack.config.js` file, since we use webpack-dev-server 
 
 ```
 devServer: {

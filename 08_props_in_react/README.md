@@ -1,6 +1,6 @@
 ## Instruction
 
-1. add `./client/components/DateTime/index.jsx`
+1.add `./client/components/DateTime/index.jsx`
 
 ```
 import React, { PropTypes } from 'react';
@@ -35,7 +35,7 @@ export default DateTime;
 
 ```
 
-2. edit `./client/components/App/index.jsx`
+2.edit `./client/components/App/index.jsx`
 
 ```
 import React, { PropTypes } from 'react';

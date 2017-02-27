@@ -1,12 +1,12 @@
 ## Instruction
 
-1. install eslint and related modules
+1.install eslint and related modules
 
 ```
 yarn add eslint eslint-config-eslint babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-config-airbnb --dev
 ```
 
-2. add .eslintrc file
+2.add .eslintrc file
 
 ```
 {
@@ -58,13 +58,13 @@ yarn add eslint eslint-config-eslint babel-eslint eslint-plugin-import eslint-pl
 }
 ```
 
-3. you can run it
+3.you can run it
 
 ```
 ./node_modules/.bin/eslint client/index.js
 ```
 
-4. install ESLint extensions on VS Code
+4.install ESLint extensions on VS Code
 
 Launch VS Code Quick Open (⌘+P), paste the following command, and press enter
 
@@ -72,13 +72,13 @@ Launch VS Code Quick Open (⌘+P), paste the following command, and press enter
 ext install vscode-eslint
 ```
 
-5. add this config to user settings
+5.add this config to user settings
 
 ```
 "eslint.run": "onType",
 ```
 
-6. open keyboard shortcuts and add this to keybindings.json
+6.open keyboard shortcuts and add this to keybindings.json
 
 ```
 {

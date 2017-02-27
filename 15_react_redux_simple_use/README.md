@@ -1,20 +1,20 @@
 ## Instruction
 
-1. install `redux` and `react-redux` and `redux-logger`
+1.install `redux` and `react-redux` and `redux-logger`
 
 ```
 yarn add redux react-redux redux-logger
 ```
 [more info](https://github.com/reactjs/react-redux)
 
-2. write action types `./client/constants/action_types.js`
+2.write action types `./client/constants/action_types.js`
 
 ```
 export const SH_FEEDBACK = 'SH_FEEDBACK';
 export const DI_FEEDBACK = 'DI_FEEDBACK';
 ```
 
-3. write two action `./client/actions/app.js` 
+3.write two action `./client/actions/app.js` 
 
 ```
 import {
@@ -32,7 +32,7 @@ export const disappearFeedback = () => ({
 });
 ```
 
-4. create app reducer `./client/reducers/app.js`
+4.create app reducer `./client/reducers/app.js`
 
 ```
 import {
@@ -58,7 +58,7 @@ export default function appReducer(state={},action){
 }
 ```
 
-5. combine Reducers `./client/reducers/index.js`
+5.combine Reducers `./client/reducers/index.js`
 
 ```
 import { combineReducers } from 'redux';
@@ -73,7 +73,7 @@ const rootReducer = combineReducers({
 export default rootReducer;
 ```
 
-6. configure Store `./client/store.js`
+6.configure Store `./client/store.js`
 
 ```
 import { createStore,applyMiddleware } from 'redux';
@@ -97,7 +97,7 @@ export const configureStore = (initialState={}) => {
 export const getStore = () => currentStore;
 ```
 
-7. edit `./client/index.js`
+7.edit `./client/index.js`
 
 ```
 //NOTE: see ./client/index.js file
@@ -119,7 +119,7 @@ ReactDOM.render(
 
 ```
 
-8. create Feedback component `./client/components/Feedback/index.jsx`
+8.create Feedback component `./client/components/Feedback/index.jsx`
 
 ```
 import React ,{ PropTypes } from 'react';
@@ -154,7 +154,7 @@ export default connect(
 )(Feedback);
 ```
 
-9. connect Home container to Redux and dispatch action `./client/containers/Home/index.jsx`
+9.connect Home container to Redux and dispatch action `./client/containers/Home/index.jsx`
 
 ```
 import React,{ PropTypes } from 'react';

@@ -1,13 +1,13 @@
 ## Instruction
 
-1. install `material-ui` and `react-tap-event-plugin`
+1.install `material-ui` and `react-tap-event-plugin`
 
 ```
 yarn add material-ui react-tap-event-plugin
 ```
 [material-ui](http://www.material-ui.com)
 
-2. add this code to `./client/index.jsx`
+2.add this code to `./client/index.jsx`
 
 [more info](http://www.material-ui.com/#/get-started/installation)
 
@@ -19,7 +19,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 ```
 
-3. add MuiTheme to parent App container as childContextTypes see `./client/container/App/index.jsx` file
+3.add MuiTheme to parent App container as childContextTypes see `./client/container/App/index.jsx` file
 
 [more info](http://www.material-ui.com/#/customization/themes)
 
@@ -39,7 +39,7 @@ App.childContextTypes = {
 
 ```
 
-4. add RaisedButton and Snackbar to Home Page
+4.add RaisedButton and Snackbar to Home Page
 
 ```
 import React, {Component} from 'react';

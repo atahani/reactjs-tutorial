@@ -1,25 +1,25 @@
 ## Instruction
 
-1. initialize yarn and install webpack locally
+1.initialize yarn and install webpack locally
 
 ```
 yarn init -y
 yarn add webpack --dev
 ```
 
-2. the webpack installed on ./node_modules/.bin/webpack
+2.the webpack installed on ./node_modules/.bin/webpack
 
 ```
 ./node_modules/.bin/webpack --help
 ```
 
-3. for example we use from `lodash` module install it
+3.for example we use from `lodash` module install it
 
 ```
 yarn add lodash
 ```
 
-4. create file on `client/index.js`
+4.create file on `client/index.js`
 
 ```
 var _ = require ('lodash');
@@ -36,7 +36,7 @@ function component () {
 document.body.appendChild(component());
 ```
 
-5. create `index.html`
+5.create `index.html`
 
 ```
 <html>
@@ -49,7 +49,7 @@ document.body.appendChild(component());
 </html>
 ```
 
-6. run webpack to bundle js file
+6.run webpack to bundle js file
 
 ```
 ./node_modules/.bin/webpack client/index.js dist/bundle.js
