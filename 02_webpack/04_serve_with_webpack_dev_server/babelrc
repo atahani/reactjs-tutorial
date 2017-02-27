@@ -1,0 +1,14 @@
+{
+  "presets": [
+    // webpack understands the native import syntax, and uses it for tree shaking
+    ["es2015", {"modules": false}],
+
+    // Specifies what level of language features to activate.
+    // Stage 2 is "draft", 4 is finished, 0 is strawman.
+    // See https://babeljs.io/docs/plugins/
+
+    "es2015"
+
+  ],
+  "plugins": []
+}
