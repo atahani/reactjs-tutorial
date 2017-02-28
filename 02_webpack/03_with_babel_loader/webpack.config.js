@@ -5,7 +5,7 @@ var sourcePath = path.join(__dirname, './client');
 var destinationPath = path.join(__dirname, './dist');
 
 module.exports = {
-  entry: './app/index.js',
+  entry: './client/index.js',
   output: {
     filename: 'bundle.js',
     path: destinationPath,
